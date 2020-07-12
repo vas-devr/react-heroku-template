@@ -10,7 +10,7 @@ const port = process.env.PORT || 3000;
 const app = express();
 
 //path to favicon in build folder
-app.use(favicon(__dirname,'/build/favicon.ico'))
+app.use(favicon(__dirname + '/build/favicon.ico'))
 
 //static resource directory
 app.use(express.static(__dirname));
