@@ -9,4 +9,6 @@ The template is customized for deployment in Heroku
 
 ## Start Script
     -package.json
-        - package.json start command has been modified to use express.       
+        - package.json start command has been modified to use express.
+        - execute `npm run start`. Open browser to localhost:3000.
+
