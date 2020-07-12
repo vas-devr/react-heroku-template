@@ -20,3 +20,6 @@ app.use(express.static(path.join(__dirname,'build')));
 app.get('*',function(req,res){
     res.sendFile(path.joing(__dirname,'build','index.html'));
 });
+
+
+app.listen(port);
